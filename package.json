@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-nonindex-keys",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Return an array of an object's own enumerable property names which are not integer indices.",
   "license": "Apache-2.0",
   "author": {
