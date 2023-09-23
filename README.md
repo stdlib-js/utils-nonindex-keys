@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import nonIndexKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonindex-keys@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-nonindex-keys/tags). For example,
+
+```javascript
 import nonIndexKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonindex-keys@v0.1.0-esm/index.mjs';
 ```
 
@@ -85,7 +90,7 @@ var keys = nonIndexKeys( arr );
 <body>
 <script type="module">
 
-import nonIndexKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonindex-keys@v0.1.0-esm/index.mjs';
+import nonIndexKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonindex-keys@esm/index.mjs';
 
 function Foo() {
     this[ 0 ] = 3.14;
