@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nonIndexKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonindex-keys@esm/index.mjs';
+import nonIndexKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonindex-keys@v0.2.1-esm/index.mjs';
 ```
 
 #### nonIndexKeys( obj )
@@ -85,7 +85,7 @@ var keys = nonIndexKeys( arr );
 <body>
 <script type="module">
 
-import nonIndexKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonindex-keys@esm/index.mjs';
+import nonIndexKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonindex-keys@v0.2.1-esm/index.mjs';
 
 function Foo() {
     this[ 0 ] = 3.14;
