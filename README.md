@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nonIndexKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonindex-keys@deno/mod.js';
+import nonIndexKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonindex-keys@v0.2.2-deno/mod.js';
 ```
 
 #### nonIndexKeys( obj )
@@ -80,7 +80,7 @@ var keys = nonIndexKeys( arr );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import nonIndexKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonindex-keys@deno/mod.js';
+import nonIndexKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nonindex-keys@v0.2.2-deno/mod.js';
 
 function Foo() {
     this[ 0 ] = 3.14;
